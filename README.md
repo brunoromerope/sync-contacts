@@ -1,6 +1,6 @@
 # Bi-directional Sync between Pipedrive and HubSpot
 
-##Introduction
+## Introduction
 
 This program provides a utility to synchronize contacts between HubSpot and Pipedrive. By using this, any contact that's present in one platform but not the other will be created, ensuring both platforms maintain a consistent set of contacts.
 
@@ -24,6 +24,7 @@ HUBSPOT_API_Key=<Your_HubSpot_API_Key>
 ### Overview
 
 1. Initialization:
+	- Setup axios retries usin axios-retry
 	- Load environmental variables.
 	- Setup logging using Pino.
 	- Setup the API endpoints for HubSpot and Pipedrive.
