@@ -11,7 +11,7 @@ This program provides a utility to synchronize contacts between HubSpot and Pipe
 Follow these steps to get the application up and running:
 
 - Node.js environment 
-- **axios**, **axios-retry**, **pino**,** node-cron**, and **dotenv** npm packages installed.
+- **axios**, **axios-retry**, **pino**,**node-cron**, and **dotenv** npm packages installed.
 - Valid API tokens for both HubSpot and Pipedrive.
 
 ### Configuration
@@ -24,7 +24,7 @@ HUBSPOT_API_Key=<Your_HubSpot_API_Key>
 ### Overview
 
 1. Initialization:
-	- Setup axios retries usin axios-retry
+	- Setup axios retries using axios-retry
 	- Load environmental variables.
 	- Setup logging using Pino.
 	- Setup the API endpoints for HubSpot and Pipedrive.
