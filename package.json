@@ -1,0 +1,25 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Bi-directional Sync between Pipedrive and HubSpot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "API",
+    "PipeDrive",
+    "HubSpot"
+  ],
+  "author": "Bruno Romero (Wulfbangang)",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/api-client": "^10.0.0",
+    "axios": "^1.5.1",
+    "axios-retry": "^3.8.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "pino": "^8.16.0"
+  }
+}
